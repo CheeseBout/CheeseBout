@@ -4,8 +4,6 @@
 
 [![typing](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=760&lines=%3E+Full-stack+AI+Engineer+%C2%B7+LLM+Agents+%C2%B7+RAG;%3E+React+%2B+TypeScript%2C+NestJS%2C+FastAPI%2C+Go;%3E+Human-in-the-loop%2C+audit+%26+cost+tracking+for+AI)](https://github.com/CheeseBout)
 
-![views](https://komarev.com/ghpvc/?username=CheeseBout&label=PROFILE+VIEWS&color=22D3EE&style=for-the-badge)
-![followers](https://img.shields.io/github/followers/CheeseBout?label=FOLLOWERS&style=for-the-badge&color=A855F7&logo=github&logoColor=white)
 
 </div>
 
@@ -68,29 +66,29 @@ $ ./now
 
 ## `>` featured · AI / LLM
 
-### 🤖 [V-Claw: local-first personal AI assistant](https://github.com/CheeseBout/L-Claw)
+### [V-Claw: local-first personal AI assistant](https://github.com/CheeseBout/L-Claw)
 
 **🔬 AI Engineer Intern · Go** · an assistant for enterprise employees that works with Gmail and Google Workspace through policy-aware tools, and keeps working correctly after restarts.  
 **What I built:** a Gmail tool suite (threads, drafts, labels, attachments, batch ops, bounce detection) · PostgreSQL persistence for durable human-in-the-loop approvals and state restoration · an audit system tracking model versions, prompt versions, tool schema hashes and policy decisions · token-bounded context, redaction and long-term memory · Langfuse cost tracking.
 
-🔗 [Repo (fork)](https://github.com/CheeseBout/L-Claw) · [Upstream: AI26-V-Claw/V-Claw](https://github.com/AI26-V-Claw/V-Claw)
+[Repo (fork)](https://github.com/CheeseBout/L-Claw) · [Upstream: AI26-V-Claw/V-Claw](https://github.com/AI26-V-Claw/V-Claw)
 
 ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Langfuse](https://img.shields.io/badge/-Langfuse-000000?style=flat-square) ![Tavily](https://img.shields.io/badge/-Tavily_Search-5A29E4?style=flat-square)
 
-### 🧴 [Skinalyze: AI skincare system](https://github.com/CheeseBout/skinalyze-ai-v2)
+### [Skinalyze: AI skincare system](https://github.com/CheeseBout/skinalyze-ai-v2)
 
-**🧪 Full-stack + AI** · a NestJS backend orchestrating a React Native app and a stateless FastAPI AI service (chat, classification, segmentation, face detection).  
+**Full-stack + AI** · a NestJS backend orchestrating a React Native app and a stateless FastAPI AI service (chat, classification, segmentation, face detection).  
 **What I built:** a RAG cosmetics chatbot that grounds recommendations in retrieved catalog data and the user's detected skin conditions, with automatic safety warnings on low-confidence results · integration of EfficientNet-B0 (skin-condition classification) and MedSAM2 (lesion segmentation).
 
-🔗 [AI service](https://github.com/CheeseBout/skinalyze-ai-v2) · [Mobile](https://github.com/CheeseBout/skinalyze-mobile) · [Backend](https://github.com/nhatlongg11/skinalyze) · [Demo](https://huggingface.co/spaces/Cheesebout/skinalyze)
+[AI service](https://github.com/CheeseBout/skinalyze-ai-v2) · [Mobile](https://github.com/CheeseBout/skinalyze-mobile) · [Backend](https://github.com/nhatlongg11/skinalyze) · [Demo](https://huggingface.co/spaces/Cheesebout/skinalyze)
 
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![NestJS](https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white) ![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![ChromaDB](https://img.shields.io/badge/-ChromaDB-FF6446?style=flat-square) ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 
 ## `>` featured · Full-stack
 
-| 🏢 **Multi-tenant SaaS platform** (VinSmartFuture)<br>**💼 Software Engineer** · private company project.<br>**My contribution:** RBAC and team management for the admin console (permission-matrix editor with optimistic concurrency, nested team hierarchies, secured invitations) · responsive redesigns of 3 apps · 12+ standardized DataTable screens · reliability fixes (cache invalidation, modal race condition).<br>![React](https://img.shields.io/badge/-React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![TanStack](https://img.shields.io/badge/-TanStack-FF4154?style=flat-square&logo=reactquery&logoColor=white) ![Radix UI](https://img.shields.io/badge/-Radix_UI-161618?style=flat-square) ![Tailwind](https://img.shields.io/badge/-Tailwind_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) | 💊 [**Pharmaceuticals & Cosmetics Shop**](https://github.com/CheeseBout/WDP-Mobile)<br>Cross-platform shop app (auth, catalog, orders) with a fine-tuned **ResNet50** classifier (7 dermatological conditions, **85% accuracy**) embedded in the API server through **ONNX Runtime**, with no separate inference infrastructure.<br>🔗 [Mobile](https://github.com/CheeseBout/WDP-Mobile) · [Backend](https://github.com/nhatlongg11/Pharmaceutical-and-Cosmetic-Shop-Management-System-Backend) · [Notebook](https://www.kaggle.com/code/cheesebout/resnet50-skinclassification)<br>![React Native](https://img.shields.io/badge/-React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![ONNX](https://img.shields.io/badge/-ONNX_Runtime-005CED?style=flat-square&logo=onnx&logoColor=white) |
+| 🏢 **Multi-tenant SaaS platform** (VinSmartFuture)<br>**💼 Software Engineer** · private company project.<br>**My contribution:** RBAC and team management for the admin console (permission-matrix editor with optimistic concurrency, nested team hierarchies, secured invitations) · responsive redesigns of 3 apps · 12+ standardized DataTable screens · reliability fixes (cache invalidation, modal race condition).<br>![React](https://img.shields.io/badge/-React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![TanStack](https://img.shields.io/badge/-TanStack-FF4154?style=flat-square&logo=reactquery&logoColor=white) ![Radix UI](https://img.shields.io/badge/-Radix_UI-161618?style=flat-square) ![Tailwind](https://img.shields.io/badge/-Tailwind_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) | [**Pharmaceuticals & Cosmetics Shop**](https://github.com/CheeseBout/WDP-Mobile)<br>Cross-platform shop app (auth, catalog, orders) with a fine-tuned **ResNet50** classifier (7 dermatological conditions, **85% accuracy**) embedded in the API server through **ONNX Runtime**, with no separate inference infrastructure.<br>[Mobile](https://github.com/CheeseBout/WDP-Mobile) · [Backend](https://github.com/nhatlongg11/Pharmaceutical-and-Cosmetic-Shop-Management-System-Backend) · [Notebook](https://www.kaggle.com/code/cheesebout/resnet50-skinclassification)<br>![React Native](https://img.shields.io/badge/-React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![ONNX](https://img.shields.io/badge/-ONNX_Runtime-005CED?style=flat-square&logo=onnx&logoColor=white) |
 |---|---|
-| 🎧 [**customer-support-agent**](https://github.com/CheeseBout/customer-support-agent)<br><!-- TODO: 1-2 sentences on what it does, plus one result --><br>![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | 📱 [**Skinalyze Mobile**](https://github.com/CheeseBout/skinalyze-mobile)<br>React Native client for the Skinalyze system.<br>![React Native](https://img.shields.io/badge/-React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
+| [**customer-support-agent**](https://github.com/CheeseBout/customer-support-agent)<br><!-- TODO: 1-2 sentences on what it does, plus one result --><br>![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | [**Skinalyze Mobile**](https://github.com/CheeseBout/skinalyze-mobile)<br>React Native client for the Skinalyze system.<br>![React Native](https://img.shields.io/badge/-React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
 
 ## `>` stats
 
@@ -99,7 +97,6 @@ $ ./now
 
 [![streak](https://streak-stats.demolab.com?user=CheeseBout&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
 
-[![trophies](https://github-profile-trophy.vercel.app/?username=CheeseBout&theme=tokyonight&no-frame=true&column=7&margin-w=10)](https://github.com/ryo-ma/github-profile-trophy)
 
 <div align="center">
 
